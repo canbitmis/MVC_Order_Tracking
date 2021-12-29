@@ -53,11 +53,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Base\BaseRepository.cs" />
+    <Compile Include="Repository\Entity\CargoRepository.cs" />
+    <Compile Include="Repository\Entity\CustomerRepository.cs" />
+    <Compile Include="Repository\Entity\MarkettRepository.cs" />
+    <Compile Include="Repository\Entity\OrderRepository.cs" />
+    <Compile Include="Repository\Entity\OrderStatusRepository.cs" />
+    <Compile Include="Repository\Entity\UserRepository.cs" />
+    <Compile Include="Repository\Service\EntityService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repository\Entity\" />
-    <Folder Include="Repository\Service\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Sipsis.DAl\Sipsis.DAl.csproj">
       <Project>{A61FA599-C9E7-4E9F-8301-BF88F8DC8AEF}</Project>
